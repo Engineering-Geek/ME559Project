@@ -1,0 +1,67 @@
+{
+    "Pin": {
+        "Meshing Levels": {
+            "1": {        
+                "top_seeds": 10,
+                "bottom_seeds": 2,
+                "left_right_seeds": 10
+            },
+            "2": {
+                "top_seeds": 15,
+                "bottom_seeds": 2,
+                "left_right_seeds": 10
+            },
+            "3": {
+                "top_seeds": 20,
+                "bottom_seeds": 2,
+                "left_right_seeds": 10
+            },
+            "4": {
+                "top_seeds": 25,
+                "bottom_seeds": 2,
+                "left_right_seeds": 10
+            }
+        }
+    },
+    "No Pin": {
+        "Meshing Levels": {
+            "1": {
+                "top_seeds": 10,
+                "bottom_seeds": 3,
+                "left_seeds": 5,
+                "right_seeds": 10
+            },
+            "2": {
+                "top_seeds": 10,
+                "bottom_seeds": 3,
+                "left_seeds": 5,
+                "right_seeds": 15
+            },
+            "3": {
+                "top_seeds": 10,
+                "bottom_seeds": 3,
+                "left_seeds": 5,
+                "right_seeds": 20
+            },
+            "4": {
+                "top_seeds": 10,
+                "bottom_seeds": 3,
+                "left_seeds": 5,
+                "right_seeds": 25
+            }
+        }
+    },
+    "Pressure": 1e5,
+    "Fractions": {
+        "0.01": 1,
+        "0.05": 2,
+        "0.1": 3,
+        "0.2": 4,
+        "0.3": 6,
+        "0.4": 10,
+        "0.5": 15,
+        "0.6": 20,
+        "0.7": 25,
+        "0.75": 30
+    }
+}
